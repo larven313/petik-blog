@@ -36,6 +36,7 @@ function PortalList() {
 
   //   getArticles();
   // }, []);
+
   useEffect(() => {
     const getArticles = async () => {
       try {
