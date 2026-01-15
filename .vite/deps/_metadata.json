@@ -1,0 +1,98 @@
+{
+  "hash": "3b56d0dd",
+  "browserHash": "3f145a95",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7807227d",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2fc82f53",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "93c5b751",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "72a9d5e4",
+      "needsInterop": false
+    },
+    "reactstrap": {
+      "src": "../../node_modules/reactstrap/esm/index.js",
+      "file": "reactstrap.js",
+      "fileHash": "bb1f0add",
+      "needsInterop": false
+    },
+    "react-bootstrap/Card": {
+      "src": "../../node_modules/react-bootstrap/esm/Card.js",
+      "file": "react-bootstrap_Card.js",
+      "fileHash": "5131ee1a",
+      "needsInterop": false
+    },
+    "react-bootstrap/Col": {
+      "src": "../../node_modules/react-bootstrap/esm/Col.js",
+      "file": "react-bootstrap_Col.js",
+      "fileHash": "c0c68ae4",
+      "needsInterop": false
+    },
+    "react-bootstrap/Row": {
+      "src": "../../node_modules/react-bootstrap/esm/Row.js",
+      "file": "react-bootstrap_Row.js",
+      "fileHash": "d6ad4bc6",
+      "needsInterop": false
+    },
+    "react-bootstrap/Container": {
+      "src": "../../node_modules/react-bootstrap/esm/Container.js",
+      "file": "react-bootstrap_Container.js",
+      "fileHash": "d4b38ce6",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "e22f1dcc",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-VA4WEFZ3": {
+      "file": "chunk-VA4WEFZ3.js"
+    },
+    "chunk-CJ3LZD62": {
+      "file": "chunk-CJ3LZD62.js"
+    },
+    "chunk-SWOOZ7MK": {
+      "file": "chunk-SWOOZ7MK.js"
+    },
+    "chunk-3Q4R5FSV": {
+      "file": "chunk-3Q4R5FSV.js"
+    },
+    "chunk-PS64ZXBB": {
+      "file": "chunk-PS64ZXBB.js"
+    },
+    "chunk-MUXMWLDJ": {
+      "file": "chunk-MUXMWLDJ.js"
+    },
+    "chunk-LBRKSX7H": {
+      "file": "chunk-LBRKSX7H.js"
+    },
+    "chunk-JWHIGQFQ": {
+      "file": "chunk-JWHIGQFQ.js"
+    },
+    "chunk-MA2WHGMY": {
+      "file": "chunk-MA2WHGMY.js"
+    },
+    "chunk-ZC22LKFR": {
+      "file": "chunk-ZC22LKFR.js"
+    }
+  }
+}

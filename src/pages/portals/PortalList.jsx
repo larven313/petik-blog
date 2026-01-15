@@ -14,18 +14,32 @@ function PortalList() {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
 
+  // useEffect(() => {
+  //   const getArticles = async () => {
+  //     try {
+  //       const response = await axios.get("https://newsapi.org/v2/everything", {
+  //         params: {
+  //           q: "Indonesia", // keyword pencarian
+  //           sortBy: "publishedAt",
+  //           language: "id",
+  //           apiKey: API_KEY,
+  //         },
+  //       });
+
+  //       setArticles(response.data.articles || []);
+  //     } catch (error) {
+  //       console.error("Error fetching articles:", error);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
+
+  //   getArticles();
+  // }, []);
   useEffect(() => {
     const getArticles = async () => {
       try {
-        const response = await axios.get("https://newsapi.org/v2/everything", {
-          params: {
-            q: "Indonesia", // keyword pencarian
-            sortBy: "publishedAt",
-            language: "id",
-            apiKey: API_KEY,
-          },
-        });
-
+        const response = await axios.get("/api/news");
         setArticles(response.data.articles || []);
       } catch (error) {
         console.error("Error fetching articles:", error);

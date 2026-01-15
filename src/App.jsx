@@ -9,6 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Authors from "./pages/authors/Authors";
 import PortalList from "./pages/portals/PortalList";
 import DetailPortal from "./pages/portals/DetailPortal";
+import React from "react";
 
 function App() {
   return (

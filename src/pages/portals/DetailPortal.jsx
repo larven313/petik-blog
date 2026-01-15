@@ -13,18 +13,37 @@ const DetailPortal = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
+  // ini di local
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const response = await axios.get("https://newsapi.org/v2/everything", {
+  //         params: {
+  //           q: "Indonesia",
+  //           sortBy: "publishedAt",
+  //           language: "id",
+  //           apiKey: API_KEY,
+  //         },
+  //       });
+
+  //       const data = response.data.articles?.[id];
+  //       setArticle(data);
+  //     } catch (err) {
+  //       setError("Gagal memuat detail berita.");
+  //       console.error(err);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
+
+  //   fetchData();
+  // }, [id]);
+
+  // ini di host karena cors
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("https://newsapi.org/v2/everything", {
-          params: {
-            q: "Indonesia",
-            sortBy: "publishedAt",
-            language: "id",
-            apiKey: API_KEY,
-          },
-        });
-
+        const response = await axios.get("/api/news");
         const data = response.data.articles?.[id];
         setArticle(data);
       } catch (err) {
